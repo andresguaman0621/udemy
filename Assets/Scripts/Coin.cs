@@ -9,24 +9,24 @@ public class Coin : MonoBehaviour
     //public Color capsuleColor;
     [SerializeField] AudioSource audioFX;
 
-   
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
- 
+
 
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag ("Player"))
+        if (collision.CompareTag("Player"))
         {
             //transform.localScale = enlargedScate;
             //Debug.Log("Color de la cápsula: " + capsuleColor);
@@ -39,3 +39,5 @@ public class Coin : MonoBehaviour
 
 
 }
+
+
